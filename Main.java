@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         HashMap<Character, Integer> charCount = new HashMap<>();
+        System.out.print("Enter a sentence: ");
         String input = in.nextLine();
         char[] chars = input.toCharArray();
         for(int i = 0; i<chars.length; i++){
